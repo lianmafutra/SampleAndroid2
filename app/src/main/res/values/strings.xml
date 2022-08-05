@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SampleAndroid</string>
+
+    <!--  Bottom navigation menu items  -->
+    <string name="bottom_nav_item_albums">Albums</string>
+    <string name="bottom_nav_item_favourites">Favourites</string>
+    <string name="bottom_nav_item_account">Account</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
