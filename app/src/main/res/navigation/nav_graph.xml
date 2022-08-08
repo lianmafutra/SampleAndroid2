@@ -61,5 +61,10 @@
             app:popUpToInclusive="true"
             app:destination="@id/loginFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/buttonFragment"
+        tools:layout="@layout/fragment_button"
+        android:name="com.dev.sampleandroid.destinations.button.ButtonFragment"
+        android:label="ButtonFragment" />
 
 </navigation>

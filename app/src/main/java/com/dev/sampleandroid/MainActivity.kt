@@ -30,6 +30,9 @@ class MainActivity : AppCompatActivity() {
             } else {
                 binding.bottomNavView.setupWithNavController(navHostFragment.navController)
 
+//                binding.bottomNavView.removeBadge(R.id.albumsFragment) // remove badge
+                binding.bottomNavView.getOrCreateBadge(R.id.albumsFragment) // Show badge
+
                 binding.bottomNavView.visibility = View.VISIBLE
             }
         }

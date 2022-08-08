@@ -46,7 +46,6 @@ class LoginFragment : Fragment(), View.OnClickListener {
 
         navController = Navigation.findNavController(view)
 
-
         view.findViewById<Button>(R.id.btnLogin).setOnClickListener{
 
             Toast.makeText(context, "login berhasil", Toast.LENGTH_SHORT).show()
@@ -65,17 +64,12 @@ class LoginFragment : Fragment(), View.OnClickListener {
             )
 
         }
-
-
-
         view.findViewById<Button>(R.id.btnSignup).setOnClickListener(this)
-
-
     }
 
 
     override fun onClick(p0: View?) {
-        TODO("Not yet implemented")
+
     }
 
 
